@@ -3,4 +3,5 @@ export interface ParkingSpot {
   lat: number;
   lng: number;
   createdAt: number;
+  taken?: boolean; // new
 }
